@@ -1,0 +1,14 @@
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\bin\Debug\netcoreapp2.2\PizzaApplication.deps.json
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\bin\Debug\netcoreapp2.2\PizzaApplication.runtimeconfig.json
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\bin\Debug\netcoreapp2.2\PizzaApplication.runtimeconfig.dev.json
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\bin\Debug\netcoreapp2.2\PizzaApplication.dll
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\obj\Debug\netcoreapp2.2\PizzaApplication.csprojAssemblyReference.cache
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\obj\Debug\netcoreapp2.2\PizzaApplication.csproj.CoreCompileInputs.cache
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\obj\Debug\netcoreapp2.2\PizzaApplication.RazorAssemblyInfo.cache
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\obj\Debug\netcoreapp2.2\PizzaApplication.RazorAssemblyInfo.cs
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\obj\Debug\netcoreapp2.2\PizzaApplication.AssemblyInfoInputs.cache
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\obj\Debug\netcoreapp2.2\PizzaApplication.AssemblyInfo.cs
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\obj\Debug\netcoreapp2.2\PizzaApplication.RazorTargetAssemblyInfo.cache
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\bin\Debug\netcoreapp2.2\PizzaApplication.pdb
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\obj\Debug\netcoreapp2.2\PizzaApplication.dll
+C:\Users\konrad\source\repos\PizzaApplication\PizzaApplication\obj\Debug\netcoreapp2.2\PizzaApplication.pdb
