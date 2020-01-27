@@ -42,8 +42,32 @@ namespace PizzaApplication.Controllers
           return Ok(pizza);
          }
 
+        [HttpPost]
+
+        public IActionResult Create(Product newProduct)
+        {
+            _context.Product.Add(newProduct);
+            _context.SaveChanges();
+
+            return StatusCode(200, newProduct);
+        }
 
 
+        [HttpDelete("{id:int}")]
+
+        public IActionResult Delete(int id)
+        {
+            var newproduct = _context.Product.FirstOrDefault(e => e.Id == id);
+            if (newproduct == null)
+            {
+                return NotFound();
+            }
+
+            _context.Product.Remove(newproduct);
+            _context.SaveChanges();
+
+            return Ok(newproduct);
+        }
 
 
 

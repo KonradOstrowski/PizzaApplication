@@ -42,6 +42,34 @@ namespace PizzaApplication.Controllers
             return Ok(order);
         }
 
+        [HttpPost]
+
+        public IActionResult Create(Employee newEmp)
+        {
+            _context.Employee.Add(newEmp);
+            _context.SaveChanges();
+
+            return StatusCode(200, newEmp);
+        }
+
+
+
+        [HttpDelete("{id:int}")]
+
+        public IActionResult Delete(int id)
+        {
+            var emp = _context.Employee.FirstOrDefault(e => e.Id == id);
+            if (emp == null)
+            {
+                return NotFound();
+
+            }
+
+            _context.Employee.Remove(emp);
+            _context.SaveChanges();
+
+            return Ok(emp);
+        }
 
 
 

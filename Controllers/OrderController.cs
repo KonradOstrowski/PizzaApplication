@@ -42,11 +42,36 @@ namespace PizzaApplication.Controllers
             return Ok(order);
         }
 
+        [HttpPost]
+
+        public IActionResult Create(Order newOrder)
+        {
+            _context.Order.Add(newOrder);
+            _context.SaveChanges();
+
+            return StatusCode(200, newOrder);
+        }
+
+
+        [HttpDelete("{orderid:int}")]
+
+        public IActionResult Delete(int orderid)
+        {
+            var order = _context.Order.FirstOrDefault(e => e.OrderId == orderid);
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            _context.Order.Remove(order);
+            _context.SaveChanges();
+
+            return Ok(order);
+        }
 
 
 
 
-
-
+        
     }
 }
